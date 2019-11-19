@@ -402,6 +402,7 @@ import { SideNavigationCondensedObjectExampleComponent } from './component-docs/
 import { SideNavigationMultipleSelectedExampleComponent } from './component-docs/side-navigation/examples/side-navigation-multiple-selected-example/side-navigation-multiple-selected-example.component';
 import { DatePickerComplexI18nExampleComponent } from './component-docs/date-picker/examples/date-picker-complex-i18n-example/date-picker-complex-i18n-example.component';
 import { DatetimePickerComplexI18nExampleComponent } from './component-docs/datetime-picker/examples/datetime-picker-complex-i18n-example/datetime-picker-complex-i18n-example.component';
+import { SemanticToggleExampleComponent } from './component-docs/toggle/examples/semantic-toggle-example/semantic-toggle-example.component';
 
 
 @NgModule({
@@ -661,6 +662,7 @@ import { DatetimePickerComplexI18nExampleComponent } from './component-docs/date
         DisabledToggleExampleComponent,
         ToggleBindingExampleComponent,
         ToggleFormsExampleComponent,
+        SemanticToggleExampleComponent,
         TokenDocsComponent,
         TokenExampleComponent,
         MultiInputAsyncExampleComponent,
