@@ -109,33 +109,6 @@ export class PopoverDocsComponent implements OnInit {
         }
     ];
 
-    nestedPopover: ExampleFile[] = [
-        {
-            language: 'html',
-            code: nestedPopoverHtml,
-            fileName: 'nested-popover',
-            typescriptFileCode: nestedPopoverTs,
-            component: 'NestedPopoverComponent',
-            scssFileCode: nestedPopoverScss
-        },
-        {
-            language: 'typescript',
-            code: nestedPopoverTs,
-            fileName: 'nested-popover',
-            typescriptFileCode: nestedPopoverTs,
-            component: 'NestedPopoverComponent',
-            scssFileCode: nestedPopoverScss
-        },
-        {
-            language: 'scss',
-            code: nestedPopoverScss,
-            fileName: 'nested-popover',
-            typescriptFileCode: nestedPopoverTs,
-            component: 'NestedPopoverComponent',
-            scssFileCode: nestedPopoverScss
-        },
-    ];
-
     dropdownPopover: ExampleFile[] = [
         {
             language: 'html',
